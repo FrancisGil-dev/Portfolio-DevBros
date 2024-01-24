@@ -13,24 +13,26 @@
 <body class="pt-20">
     <!--Home Page-->
     <section class="h-screen" id="home">
-        <nav class=" fixed top-0 left-0 max-w-7xl flex justify-between items-center mx-auto my-0 p-16">
-            <!--Title-->
-            <h1 class="font-semibold text-4xl text-[#171717]">DevBros.</h1>
-
-            <!--NavMenus-->
-            <ul class="flex gap-7 text-xl">
-                <li class="cursor-pointer text-gray-500 hover:text-black hover:transition-all" onclick="scrollView('home')">Home</li>
-                <li class="cursor-pointer text-gray-500 hover:text-black hover:transition-all" onclick="scrollView('skills')">Skills</li>
-                <li class="cursor-pointer text-gray-500 hover:text-black hover:transition-all" onclick="scrollView('projects')">Projects</li>
-                <li class="cursor-pointer text-gray-500 hover:text-black hover:transition-all"onclick="scrollView('contacts')">Contacts</li>
-            </ul>
-
-            <!--Toggle Darkmode-->
-            <div class="flex gap-7"> 
-                <i class="bi bi-moon text-xl cursor-pointer text-gray-500 hover:text-black hover:transition-all" id="toggleIcon"></i>
-            </div>
-        </nav>
-        <main class="h-[70vh] w-full flex justify-center items-center">
+        <header class="fixed top-0 left-0 w-full">
+            <nav class="  max-w-7xl flex justify-between items-center mx-auto my-0 p-16">
+                <!--Title-->
+                <h1 class="font-semibold text-4xl text-[#171717]">DevBros.</h1>
+    
+                <!--NavMenus-->
+                <ul class="flex gap-7 text-xl">
+                    <li class="cursor-pointer text-gray-500 hover:text-black hover:transition-all" onclick="scrollView('home')">Home</li>
+                    <li class="cursor-pointer text-gray-500 hover:text-black hover:transition-all" onclick="scrollView('skills')">Skills</li>
+                    <li class="cursor-pointer text-gray-500 hover:text-black hover:transition-all" onclick="scrollView('projects')">Projects</li>
+                    <li class="cursor-pointer text-gray-500 hover:text-black hover:transition-all"onclick="scrollView('contacts')">Contacts</li>
+                </ul>
+    
+                <!--Toggle Darkmode-->
+                <div class="flex gap-7"> 
+                    <i class="bi bi-moon text-xl cursor-pointer text-gray-500 hover:text-black hover:transition-all" id="toggleIcon"></i>
+                </div>
+            </nav>
+        </header>
+        <main class="h-[90vh] w-full flex justify-center items-center">
             <div class="flex justify-between items-center p-11 mx-auto my-0 max-w-7xl gap-28">
               <!--Links-->
                 <div class="flex flex-col gap-4">

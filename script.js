@@ -14,6 +14,4 @@ const toggle = document.getElementById('toggleIcon').addEventListener('click', (
     
     toggleIcon.classList.remove();
     toggleIcon.classList.toggle('bi-sun');
-
-
 })
